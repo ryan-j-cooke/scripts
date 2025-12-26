@@ -12,6 +12,9 @@ echo "===================================="
 echo "🔄 Updating system packages..."
 sudo apt-get update -y
 
+echo "Installing git"
+sudo apt install git
+
 # -----------------------------
 # INSTALL CODE-INSIDERS (VS Code Insiders)
 # -----------------------------
